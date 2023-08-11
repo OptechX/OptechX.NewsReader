@@ -5,6 +5,9 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
+  schedule:
+    - cron: '30 14 * * *'
 
 jobs:
   build:
@@ -25,3 +28,5 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish -r linux-x64 -c Release /p:PublishSingleFile=true --self-contained
+    - name: Run
+      run: /home/runner/work/OptechX.NewsReader/OptechX.NewsReader/bin/Release/net7.0/linux-x64/publish/OptechX.NewsReader --apiKey ${{ secrets.NEWSAPI_APIKEY }} --country us --category technology --pageSize 20
