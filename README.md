@@ -24,6 +24,8 @@ dotnet build
 dotnet run --apiKey <api_key> --country <country> --category <category> --pageSize <page_size>
 ```
 
+## Notes
+
 Replace `<api_key>`, `<country>`, `<category>`, and `<page_size>` with the appropriate values. For example:
 
 ```bash
