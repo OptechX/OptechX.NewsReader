@@ -45,4 +45,4 @@ dotnet publish -c Release /p:PublishSingleFile=true --self-contained
 
 This will generate an executable in the bin/Release/netX.0/publish directory.
 
-License: This project is licensed under the [MIT License](https://opensource.org/license/mit/).
+**License:** This project is licensed under the [MIT License](https://opensource.org/license/mit/).
