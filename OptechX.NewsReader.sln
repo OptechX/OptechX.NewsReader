@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptechX.NewsReader", "OptechX.NewsReader.csproj", "{9324D3DA-B9F7-406D-A6C3-40481E81B8D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9324D3DA-B9F7-406D-A6C3-40481E81B8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9324D3DA-B9F7-406D-A6C3-40481E81B8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9324D3DA-B9F7-406D-A6C3-40481E81B8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9324D3DA-B9F7-406D-A6C3-40481E81B8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {478DEAB0-3DE0-49A4-B9D1-4CAFD7A9F72B}
+	EndGlobalSection
+EndGlobal
